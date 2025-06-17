@@ -1,0 +1,4 @@
+{
+    "windows": "https://github.com/Verteilen/worker/releases/download/0.8.0/worker.exe",
+    "linux": "https://github.com/Verteilen/worker/releases/download/0.8.0/worker"
+}
