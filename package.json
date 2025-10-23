@@ -1,0 +1,26 @@
+{
+  "name": "verteilen-worker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://verteilen.github.io/wiki/",
+  "author": "Elly",
+  "repository": "https://github.com/Verteilen/Verteilen-Core",
+  "description": "The core library help verteilen software to work",
+  "main": "dist/index.js",
+  "scripts": {
+    "pkg": "ts-node scripts/build.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "bugs": {
+    "url": "https://github.com/Verteilen/Verteilen-Core/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "pkg": "^5.8.1",
+    "verteilen-core": "^1.0.0"
+  }
+}

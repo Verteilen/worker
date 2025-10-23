@@ -1,7 +1,11 @@
 # Worker
 
-In order to overcome the issue of multithreading of nodejs, we simply use subprocess to generate another process to work with\
-In this way, main process will not be block, but simply waiting subprocess to finish their works
+Run ``tsc`` before ``npm run pkg``
 
-The location.json specifie the executable location, which will be in the release page.\
-The compute node will download them when run at the first time.
+And use command below for different platforms
+* ``npm run pkg win`` for Windows
+* ``npm run pkg mac`` for MacOS
+* ``npm run pkg linux`` for Linux
+
+Default is where you're right now\
+``npm run pkg [default: Current_OS]``
